@@ -23,9 +23,10 @@ module.exports = function(grunt) {
       all: {
         files: [
           {
-            cwd: 'src',
-            src: '*.{html,png,jpg}',
-            dest: 'dist/'
+            cwd: 'src/',
+            src: ['*.{html,jpg,png}'],
+            dest: 'dist/',
+            expand: true
           }
         ]
       }
@@ -48,7 +49,8 @@ module.exports = function(grunt) {
 
   grunt.registerTask('build', [
     'clean',
-    'cssmin'
+    'cssmin',
+    'copy',
   ]);
 
   grunt.registerTask('default', [
