@@ -53,10 +53,6 @@ abbr {
 	}
 
 .intro { 
-	min-width: 470px;
-	min-height: 100px;
-	width: 100%;
-	height: 100%;
 	margin-top: 100px;
 	}
 
@@ -98,7 +94,6 @@ header {
 	clear: both; 
 	margin: 20px 20px 20px 10px; 
 	width: 160px; 
-	float: left;
 	}
 .summary p {
 	font: italic 1.1em/2.2 georgia; 
@@ -106,11 +101,8 @@ header {
 	}
 
 .preamble {
-	clear: right; 
 	padding: 0px 10px 0 10px;
-	width: 50%;
-	height: 30%;
-	}
+}
 .supporting {	
 	padding-left: 10px; 
 	margin-bottom: 40px;
@@ -148,8 +140,7 @@ footer a:link, footer a:visited {
 	background: transparent url(h3.gif) no-repeat top left; 
 	margin: 10px 0 5px 0; 
 	width: 97px; 
-	height: 16px; 
-
+	height: 16px;
 	text-indent: 100%;
 	white-space: nowrap;
 	overflow: hidden;
@@ -199,17 +190,13 @@ footer a:link, footer a:visited {
 	font: 10px verdana, sans-serif; 
 	background: transparent url(paper-bg.jpg) top left repeat-y; 
 	padding: 10px; 
-	margin-top: -350px;; 
-	float: right;
 	font-size: 60%;
 }
 
 #about-details img{
 	padding: 5px;
-	float: right;
 	height: 350px;
 	width: 250px; 
-	
 }
 
 .contact-page{
@@ -218,16 +205,12 @@ footer a:link, footer a:visited {
 .social-widget {
 	font: 10px verdana, sans-serif; 
 	background: transparent url(paper-bg.jpg) top left repeat-y; 
-	padding: 10px; 
-	margin-top: 400px; 
-	width: 250px; 
-	float: right;
+	padding: 10px;  
 	font-size: 60%;
 }
 
 #social-links img{
 	padding: 0px;
-	float: right;
 	height: 35px;
 	width: 50px; 
 }

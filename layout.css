@@ -1,0 +1,10 @@
+.left-lane {
+	float: left;
+	width: 35%;
+}
+
+.right-lane {
+	float: right;
+	width: 65%;
+	padding-top: 90px;
+}
